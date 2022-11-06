@@ -17,6 +17,13 @@ public class Main {
         //              - Teraz stracimy trochę czasu, ale w przyszłości nie zmarnujemy czasu na rozwijanie nowych funkcjonalności
         //              - Testy pozostają takie same - nie ma potrzemy zmiany architektury
         //              - Kod jest zrozumiały dla 95% programistów
+        //              - jeśli wystąpi/pojawi się błąd to musimy poprawić tylko jedno miejsce/klasę/metodę
+        //                  - naprawa bez ryzyka uszkodzenia innych funkcjonalności (ponieważ [single responsibility] są oddzielone)
+        //              - Z perspektywy managera/szefa:
+        //                  - mniejsze koszta utrzymania
+        //                  - kod łatwiejszy w zrozumieniu
+        //                  - (minus) dużo plików z kodem
+
 
         // DRY      - Don't repeat Yourself
         // KISS     - Keep it simple, stupid
